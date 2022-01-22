@@ -7,10 +7,6 @@ module.exports = {
     hot: true,
     open: true,
     port: 3000,
-    overlay: {
-      errors: true,
-      warnings: true,
-    },
   },
   devtool: 'cheap-module-source-map',
   plugins: [
