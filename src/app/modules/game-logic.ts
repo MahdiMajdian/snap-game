@@ -1,4 +1,4 @@
-import {CardNumber, CardSuit, numbers, suits} from '../consts';
+import {CardNumber, CardSuit, numbers, suits} from '../constants';
 import {GameData, GamePlayer, ICard} from '../types';
 
 

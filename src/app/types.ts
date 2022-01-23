@@ -1,4 +1,4 @@
-import {CardNumber, CardSuit} from './consts';
+import {CardNumber, CardSuit} from './constants';
 
 
 export type GameStatus = 'ready' | 'play' | 'done'

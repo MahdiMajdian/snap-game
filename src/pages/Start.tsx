@@ -8,7 +8,7 @@ interface Props {
 const StartPage = ({handleGameStart}: Props): React.ReactElement => {
 
   return (
-    <div className='h-full flex justify-center items-center'>
+    <div className='absolute inset-0 flex justify-center items-center'>
       <button className='button' onClick={handleGameStart}>
         Start Game
       </button>
