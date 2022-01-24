@@ -1,6 +1,6 @@
 import {useState} from 'react';
 
-import {initialGameData} from './app/consts';
+import {initialGameData} from './app/constants';
 import {startGame} from './app/modules/game-logic';
 import {GameData} from './app/types';
 import Modal from './components/Modal';
@@ -16,7 +16,7 @@ const App = (): React.ReactElement => {
   };
 
   return (
-    <div className='h-screen relative'>
+    <div>
       { gameData.status === 'ready' && 
         <StartPage
           handleGameStart={handleGameStart}
@@ -24,9 +24,9 @@ const App = (): React.ReactElement => {
       }
       { gameData.status !== 'ready' && 
         <GamePage
-          gameDate={gameData}
+          gameData={gameData}
           handleGameStart={handleGameStart}
-          setGameDate={setGameData}
+          setGameData={setGameData}
         />
       }
       { gameData.status === 'done' &&

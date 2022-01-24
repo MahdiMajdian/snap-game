@@ -55,5 +55,3 @@ export const initialGameData: GameData = {
   turn: getRandomTurn(),
   status: 'ready',
 };
-
-
