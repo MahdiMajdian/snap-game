@@ -17,7 +17,7 @@ The page will reload if you make edits.\
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Once finished it'll open [http://127.0.0.1:8888](http://127.0.0.1:8888) to show an interactive treemap visualization of the contents of all your bundles.
+Once finished it'll open [http://127.0.0.1:8888](http://127.0.0.1:8888) to show an interactive treemap visualization of the contents of all your bundles.\
 **Note: to activate this feature go to `./webpack/webpack.prod.js` and uncomment line 8 **
 
 Run the app after the build process by `cd ./build` followed by `npx serve`.\
