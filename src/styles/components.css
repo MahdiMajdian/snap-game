@@ -1,0 +1,15 @@
+/* Add custom components */
+.button {
+  @apply py-2 px-4 rounded-lg transition-all select-none border-2 border-violet-600 font-medium text-white text-lg bg-violet-600 hover:bg-violet-700;
+}
+
+.select {
+  @apply appearance-none px-3 py-1.5 rounded outline-none border border-gray-400 focus:border-violet-600;
+}
+
+.card.active {
+  @apply cursor-pointer hover:shadow-xl md:hover:-translate-y-2;
+}
+.card.inactive{
+  @apply opacity-70 cursor-auto;
+}
